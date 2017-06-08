@@ -1,0 +1,28 @@
+body {
+    font-family: 'Open Sans', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: $fontSizeBase;
+}
+
+.block-center{
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.scale-1x{
+    width: 50%;
+}

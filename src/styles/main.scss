@@ -1,0 +1,62 @@
+@import "variables";
+@import "reset";
+@import "base";
+
+.header-wrapper{
+    padding: 30px;
+    .caption{
+        display: table-cell;
+        h2{
+            vertical-align: middle;
+            color: #fff;
+        }
+    }
+}
+.hero{
+    background: rgba(207,66,132,1);
+    background: -moz-linear-gradient(top, rgba(207,66,132,1) 0%, rgba(181,69,95,1) 94%, rgba(179,69,93,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(207,66,132,1)), color-stop(94%, rgba(181,69,95,1)), color-stop(100%, rgba(179,69,93,1)));
+    background: -webkit-linear-gradient(top, rgba(207,66,132,1) 0%, rgba(181,69,95,1) 94%, rgba(179,69,93,1) 100%);
+    background: -o-linear-gradient(top, rgba(207,66,132,1) 0%, rgba(181,69,95,1) 94%, rgba(179,69,93,1) 100%);
+    background: -ms-linear-gradient(top, rgba(207,66,132,1) 0%, rgba(181,69,95,1) 94%, rgba(179,69,93,1) 100%);
+    background: linear-gradient(to bottom, rgba(207,66,132,1) 0%, rgba(181,69,95,1) 94%, rgba(179,69,93,1) 100%);
+
+    img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.search-container{
+    background-color: #323440;
+    height: 50px;
+
+    .input-group {
+        position: relative;
+        display: table;
+        border-radius: 25px;
+        background: #fff;
+        padding: 9px 12px;
+
+        .form-control {
+            display: table-cell;
+            position: relative;
+            float: left;
+            width: 100%;
+            margin-bottom: 0;
+            z-index: 2;
+        }
+        .input-group-btn {
+            display: table-cell;
+            position: relative;
+            font-size: 0;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+    }
+}
+
+.search-results{
+    background-color: #383A49;
+}

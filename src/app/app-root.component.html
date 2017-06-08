@@ -1,0 +1,31 @@
+<div class="hero">
+        <header>
+            <div class="header-wrapper clearfix">
+                <div class="header-logo-container float-left">
+                    <a class="header-logo" href="#" title="Geek Label">
+                        <img src="images/gl-logo@2x.png" class="scale-1x" alt="Geek Label"/>
+                    </a>
+                </div>
+                <div class="caption float-right">
+                    <h2>Powered by Spotify</h2>
+                </div>
+            </div>
+        </header>
+        <div class="hero-banner">
+            <img src="images/hero-img@2x.png" class="block-center scale-1x" alt="Music Search"/>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="form-group">
+            <div class="input-group block-center">
+                <input class="form-control" type="text" name="search" placeholder="Search" required="">
+                <span class="input-group-btn">
+                    <button class="btn" type="submit"><span aria-hidden="true"><span style="margin-left:10px;">Search</span></span></button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="search-results">
+        <ng-outlet="results"></ng-outlet>
+    </div>
+
