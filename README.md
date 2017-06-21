@@ -1,12 +1,11 @@
 # Spotify music app
 
 
-
 ## Getting started
 
 Clone project:
 
-    $ git clone https://github.com/flatlogic/angular-material-dashboard.git
+    $ git clone https://github.com/hbhaskar/spotify-music-app.git
 
 Install dependencies:
 
@@ -27,3 +26,5 @@ Run development web-server:
 ## Project structure and credits
 
 
+## Deploy to Github pages  
+ 

@@ -1,4 +1,5 @@
 node_modules
-gulp.1
-build
+jspm_packages
+css
+js
 .tmp
