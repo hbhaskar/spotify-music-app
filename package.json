@@ -10,6 +10,42 @@
     "music",
     "app"
   ],
+  "devDependencies": {
+    "jspm": "0.16.13",
+    "gulp": "3.9.0",
+    "plato": "1.5.0",
+    "babel": "5.8.23",
+    "systemjs-builder": "0.14.8",
+    "phantomjs": "1.9.18",
+    "protractor": "2.5.1",
+    "jasmine-core": "2.3.4",
+    "jasmine-reporters": "2.0.7",
+    "jasmine-async-sugar": "1.3.0",
+    "karma": "0.13.14",
+    "karma-jspm": "2.0.1",
+    "karma-jasmine": "0.3.6",
+    "karma-coverage": "douglasduteil/karma-coverage#next",
+    "karma-coveralls": "1.1.2",
+    "karma-ie-launcher": "0.2.0",
+    "karma-junit-reporter": "0.3.8",
+    "karma-chrome-launcher": "0.2.1",
+    "karma-safari-launcher": "0.1.1",
+    "karma-firefox-launcher": "0.1.6",
+    "karma-phantomjs-launcher": "0.2.1",
+    "karma-babel-preprocessor": "5.2.2"
+  },
   "author": "Harish Bhaskar",
-  "license": "ISC"
+  "license": "ISC",
+  "jspm": {
+    "dependencies": {
+      "angular": "npm:angular@^1.6.4",
+      "angular-local-storage": "npm:angular-local-storage@^0.6.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "angular-mocks": "npm:angular-mocks@^1.6.4"
+    }
+  }
 }
